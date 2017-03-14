@@ -18,3 +18,4 @@
   .logged-in .responsive-visibility.hidden-lg { display: block !important; }
   .logged-in .responsive-visibility.hidden-lg .responsive-visibility-blocks { opacity: .25; }
   .logged-in .responsive-visibility.hidden-lg:before { display: block; padding: 10px; background: #888; color: #fff; font-weight: bold; content: 'This block is set to be hidden from this display.'; font-size: 75%; margin-bottom: 5px; } }
+.bean-type-responsive_visibility > h2.block-title { display: none; }

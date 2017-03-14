@@ -88,3 +88,7 @@
     @include message;
   }
 }
+
+.bean-type-responsive_visibility > h2.block-title {
+  display: none;
+}
