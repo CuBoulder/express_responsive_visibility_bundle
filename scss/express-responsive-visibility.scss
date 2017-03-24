@@ -35,13 +35,13 @@
   .hidden-xs {
     display: none !important;
   }
-  .logged-in .responsive-visibility.hidden-xs {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-xs {
     display: block !important;
   }
-  .logged-in .responsive-visibility.hidden-xs .responsive-visibility-blocks {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-xs .responsive-visibility-blocks {
     opacity: .25;
   }
-  .logged-in .responsive-visibility.hidden-xs:before {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-xs:before {
     @include message;
   }
 }
@@ -49,13 +49,13 @@
   .hidden-sm {
     display: none !important;
   }
-  .logged-in .responsive-visibility.hidden-sm {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-sm {
     display: block !important;
   }
-  .logged-in .responsive-visibility.hidden-sm .responsive-visibility-blocks {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-sm .responsive-visibility-blocks {
     opacity: .25;
   }
-  .logged-in .responsive-visibility.hidden-sm:before {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-sm:before {
     @include message;
   }
 }
@@ -63,14 +63,14 @@
   .hidden-md {
     display: none !important;
   }
-  .logged-in .responsive-visibility.hidden-md {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-md {
     display: block !important;
   }
-  .logged-in .responsive-visibility.hidden-md .responsive-visibility-blocks {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-md .responsive-visibility-blocks {
     opacity: .25;
 
   }
-  .logged-in .responsive-visibility.hidden-md:before {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-md:before {
     @include message;
   }
 }
@@ -78,17 +78,17 @@
   .hidden-lg {
     display: none !important;
   }
-  .logged-in .responsive-visibility.hidden-lg {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-lg {
     display: block !important;
   }
-  .logged-in .responsive-visibility.hidden-lg .responsive-visibility-blocks  {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-lg .responsive-visibility-blocks  {
     opacity: .25;
   }
-  .logged-in .responsive-visibility.hidden-lg:before {
+  .express-responsive-visibility-preview .responsive-visibility.hidden-lg:before {
     @include message;
   }
 }
 
-.bean-type-responsive_visibility > h2.block-title {
+.bean-type-responsive_visibility > .block-inner > h2.block-title {
   display: none;
 }
