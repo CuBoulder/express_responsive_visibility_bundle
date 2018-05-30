@@ -1,7 +1,7 @@
 name = Responsive Visibility Bundle
 core = 7.x
 package = Features
-version = 1.0
+version = 7.x-1.1
 project = express_responsive_visibility_bundle
 project status url = https://github.com/CuBoulder/express_responsive_visibility_bundle
 
