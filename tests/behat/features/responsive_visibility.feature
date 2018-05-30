@@ -1,4 +1,4 @@
-@class_notes
+@responsive_visibiity
 Feature: Responsive Visibility Block
 
 When I login to a Web Express website
