@@ -2,4 +2,6 @@ The Express Responsive Visibility Bundle gives site creators the ability to cont
 
 The bundle creates a bean type with an entity reference field. It is wrapped about another bean and configured for the display (mobile, tablet, desktop) on which it should be visible.
 
+[![Build Status](https://travis-ci.org/CuBoulder/express_responsive_visibility_bundle.svg?branch=master)](https://travis-ci.org/CuBoulder/express_responsive_visibility_bundle)
+
 **NOTE: To update this repository's codebase, please follow: [Releasing Custom Bundle Code](https://github.com/CuBoulder/express_documentation/blob/master/docs/custom_bundle_releases.md#how-to-succesfully-update-a-custom-bundles-code).**
