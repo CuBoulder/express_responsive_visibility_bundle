@@ -147,3 +147,15 @@ function express_responsive_visibility_bundle_secure_permissions($role) {
     return $permissions[$role];
   }
 }
+
+/**
+ * Implements hook_unused_beans().
+ *
+ */
+function express_responsive_visibility_bundle_unused_beans($vars) {
+  $vars['Responsive Visibility']['field_data_field_responsive_vis_block'] = array(
+    'table' => 'field_data_field_responsive_vis_block',
+    'column' => 'field_responsive_vis_block_target_id',
+  );
+  return $vars;
+}
