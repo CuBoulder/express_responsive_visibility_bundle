@@ -32,6 +32,10 @@ dependencies[] = cu_advanced_layout_bundle
 
 stylesheets[all][] = css/express-responsive-visibility.css
 
+bundle_request = 1
 bundle_group = 'request_bundles'
+
 bundle_roles[] = developer
 bundle_roles[] = administrator
+bundle_roles[] = site_owner
+bundle_roles[] = configuration_manager
